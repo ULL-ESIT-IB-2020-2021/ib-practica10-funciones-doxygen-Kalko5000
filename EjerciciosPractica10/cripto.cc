@@ -35,6 +35,7 @@ int main (int argc, char* argv []) {
              getline(FicheroEntrada, texto_entrada);
     FicheroEntrada.close();
   
+  cout << NumeroDeA (texto_entrada) << endl;
   
   if (operacion == "+") {
     if (metodo == "cesar") {

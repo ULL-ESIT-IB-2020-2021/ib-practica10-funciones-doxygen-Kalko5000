@@ -85,3 +85,13 @@ string CifradoCesar (string texto, int knumero) {
   }
   return texto;
 }
+
+int NumeroDeA (string texto) {
+  int i, contador = 0;
+  for (i = 0; i < texto.length(); i++) {
+    if (texto[i] == 'a') {
+      contador++;
+    }
+  }
+  return contador;
+}

@@ -26,3 +26,4 @@ El orden de los parametros que debe introducir es: \
 void Usage (int argc, char *argv[]);
 string CifradoXor (string texto, string password);
 string CifradoCesar (string texto, int knumero);
+int NumeroDeA (string texto);
