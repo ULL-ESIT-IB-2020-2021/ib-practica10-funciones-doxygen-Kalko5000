@@ -21,7 +21,7 @@ decidido por el usuario) \
                                                                       \
                           \
 El orden de los parametros que debe introducir es: \
-./cripto fichero_entrada fichero_salida método(xor / cesar) password operación";
+./cripto fichero_entrada fichero_salida método(xor / cesar) password operación (+ o -)";
 
 void Usage (int argc, char *argv[]);
 string CifradoXor (string texto, string password);
